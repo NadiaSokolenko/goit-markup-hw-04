@@ -8,6 +8,7 @@
     --portfolio-background: #E5E5E5;
     --mailto: rgba(255, 255, 255, 0.6);
     --team-background: #F5F4FA;
+    --icon: #AFB1B8;
 }
 
 body{
@@ -109,6 +110,7 @@ img {
 .button:focus {
     color: var(--white);
     background-color: var(--active-text);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*--------Header!--------*/
@@ -323,6 +325,32 @@ width: calc((100%-90px)/4)
     text-align: center;
 }
 
+.customers-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.customer {
+    width: 170px;
+    height: 92px;
+}
+
+.customer-logo {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icon);
+    border-radius: 4px;
+    align-items: center;
+    justify-items: center;
+    color: var(--icon);
+}
+
+.customer-link {
+    fill: currentColor;
+}
+
 .footer {
     background-color: var(--dark-background);
     padding-top: 60px;
@@ -395,6 +423,11 @@ width: calc((100%-90px)/4)
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
 }
 
 .portfolio-item-box {
