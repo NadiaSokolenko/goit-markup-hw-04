@@ -209,6 +209,18 @@ border-bottom: 1px solid #ececec;
     color: var(--active-text);
 }
 
+.icon-envelope {
+    margin-right: 10px;
+    margin-bottom: 0px;
+    fill: currentColor;
+}
+
+.icon-phone {
+    fill: currentColor;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
 /*main*/
 
 .hero-section {
